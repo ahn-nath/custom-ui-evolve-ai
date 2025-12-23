@@ -14,8 +14,16 @@ const styles: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
+    backgroundColor: "lightgray", 
+    backgroundImage: "url('/bg')",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    /*
     background:
       "url(https://asset.kindedemo.com/evolve-ai/bg.png) lightgray 50% / cover no-repeat",
+
+    */  
   },
 
   heading: {
