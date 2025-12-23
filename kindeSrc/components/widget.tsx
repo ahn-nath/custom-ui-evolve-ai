@@ -15,7 +15,7 @@ const styles: {
     flexDirection: "column",
     justifyContent: "space-between",
     backgroundColor: "lightgray", 
-    backgroundImage: "url('/bg')",
+    backgroundImage: "url('/bg.png')",
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
