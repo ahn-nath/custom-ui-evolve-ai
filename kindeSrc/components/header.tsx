@@ -10,7 +10,7 @@ const styles = {
 export const Header = () => {
   return (
     <div className="header">
-      <img style={styles.logo} src={"/logo"} />
+      <img style={styles.logo} src={"/image"} />
     </div>
   );
 };
