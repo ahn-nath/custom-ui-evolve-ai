@@ -13,7 +13,7 @@ const styles: {
     flexDirection: "column",
     justifyContent: "space-between",
     backgroundColor: "lightgray", 
-    backgroundImage: "url('/bg.png')",
+    backgroundImage: "url('/image.png')",
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
