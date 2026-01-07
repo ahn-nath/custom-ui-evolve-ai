@@ -36,8 +36,9 @@ const ErrorPage: React.FC<KindePageEvent> = async ({ context, request }) => {
       </head>
       <body>
         <div className="container" data-kinde-root="true">
-          <h1>Oops! Something went wrong with thid</h1>
+          <h1>Oops! Something went wrong with this</h1>
           <div>{getKindeWidget()}</div>
+          <a href="url">Link text to go back</a>
         </div>
       </body>
     </html>
