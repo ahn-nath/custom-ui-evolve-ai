@@ -1,6 +1,10 @@
 'use server';
 
-import { getKindeWidget, type KindePageEvent } from '@kinde/infrastructure';
+import { 
+  getKindeWidget, 
+  getKindeRequiredCSS,
+  type KindePageEvent 
+} from '@kinde/infrastructure';
 import React from 'react';
 import { renderToString } from 'react-dom/server.browser';
 
@@ -11,6 +15,7 @@ const ErrorPage: React.FC<KindePageEvent> = async ({ context, request }) => {
     <html lang={request.locale.lang}>
       <head>
         <title>{content.pageTitle}</title>
+        {getKindeRequiredCSS()}
         <style>{`
           body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
