@@ -34,7 +34,7 @@ const ErrorPage: React.FC<KindePageEvent> = async ({ context, request }) => {
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
           }
           h1 {
-            color: #e74c3c;
+            color: #606060ff;
             margin-bottom: 20px;
           }
         `}</style>
@@ -43,7 +43,7 @@ const ErrorPage: React.FC<KindePageEvent> = async ({ context, request }) => {
         <div className="container" data-kinde-root="true">
           <h1>Oops! Something went wrong with this</h1>
           <div>{getKindeWidget()}</div>
-          <a href="url">Link text to go back</a>
+          <a href="http://localhost:3000">Link text to go back</a>
         </div>
       </body>
     </html>
