@@ -25,7 +25,7 @@ const ErrorPage = async ({request, context}) => {
         {getKindeRequiredJS()}
       </head>
       <body>
-        <h1>This is just an</h1>
+        <h1>This is just an error page</h1>
         {getKindeWidget()}
       </body>
     </html>
