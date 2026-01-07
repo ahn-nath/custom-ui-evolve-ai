@@ -24,7 +24,7 @@ const ErrorPage: React.FC<KindePageEvent> = async ({ context, request }) => {
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            background: #f5f5f5;
+            background: #606060ff
           }
           .container {
             max-width: 500px;
