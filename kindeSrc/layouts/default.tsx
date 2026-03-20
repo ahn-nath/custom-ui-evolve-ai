@@ -8,7 +8,7 @@ const styles: {
 } = {
   container: {
     minHeight: "100vh",
-    color: "#fff",
+    color: "#151414",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
@@ -17,11 +17,11 @@ const styles: {
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    /*
+    
     background:
       "url(https://asset.kindedemo.com/evolve-ai/bg.png) lightgray 50% / cover no-repeat",
 
-    */  
+     
   },
 };
 
