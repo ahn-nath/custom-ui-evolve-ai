@@ -12,7 +12,7 @@ const styles: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    backgroundColor: "lightgray", 
+    backgroundColor: "#000", 
     backgroundImage: `url('../../image.png')`,
     backgroundPosition: "center",
     backgroundSize: "cover",
