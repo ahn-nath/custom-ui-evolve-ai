@@ -18,6 +18,7 @@ const styles: {
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
+    border: "#fff solid 3px"
   },
 
   input: {
