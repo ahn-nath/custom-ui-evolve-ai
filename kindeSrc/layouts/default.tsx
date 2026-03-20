@@ -5,6 +5,7 @@ import { Header } from "../components/header";
 
 const styles: {
   container: React.CSSProperties;
+  input: React.CSSProperties;
 } = {
   container: {
     minHeight: "100vh",
@@ -18,7 +19,14 @@ const styles: {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
   },
+
+  input: {
+    border: "#fff solid 3px"
+  }
 };
+
+
+
 
 type LayoutProps = {
   children: React.ReactNode;
